@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css</title>
+    <style>
+
+        @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: #FCF7F8;
+            font-family: 'Inter', sans-serif;
+            font-weight: 400;
+        }
+
+        .Header {
+            margin: 10px;
+            padding: 10px;
+            border-radius: 10px;
+        }
+
+        .Header nav {
+            display: flex;
+            justify-content: space-between;
+            background-color: #5B616A;
+            position: fixed;
+            z-index: 100;
+            top: 0;
+            left: 0;
+            width: 100%;
+            z-index: 1000;
+        }
+
+        .logo {
+            margin: 5px;
+            padding: 10px;
+            color: #EEEEEE;
+        }
+
+        .link {
+            display: flex;
+            flex-direction: row;
+        }
+
+
+        ul {
+            list-style: none;
+            margin: 5px;
+            padding: 10px;
+        }
+
+        a {
+            text-decoration: none;
+            color:#EEEEEE;
+        }
+
+        .Main {
+            margin: 10px;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items:center;
+            margin-top: 60px;
+            padding: 20px;
+            border-radius: 5px;
+        }
+
+        .item {
+            width: 400px;
+            height: auto;
+            padding: 5px;
+        }
+
+        .item span {
+            color: #272626;
+            font-weight: 900;
+            font-size:xx-large;
+        }
+
+        .item p {
+            margin: 5px 0px;
+            width: 100%;
+            color: #272626;
+        }
+
+        .item-btn {
+            display: inline;
+            color: #272626;
+            margin-left: 215px;
+            gap: 10px;
+
+        }
+
+        .item-btn a {
+            background-color: #272626;
+            padding: 5px;
+        }
+
+    </style>
+</head>
+<body>
+
+    <header class="Header">
+        <nav class="nav">
+            <div class="logo">
+                <span>🚀IKYOne</span>
+            </div>
+            <div class="link">
+                <ul>
+                <li><a href="#home">Home</a></li>
+            </ul>
+            <ul>
+                <li><a href="#about">About</a></li>
+            </ul>
+            <ul>
+                <li><a href="#Content">Content</a></li>
+            </ul>
+            </div>
+            
+        </nav>
+    </header>
+        <main class="Main">
+            <div class="container">
+                <div class="item">
+                    <span>Selamat Datang di Website IKYOne</span>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, eum.</p>
+                </div> 
+            </div> 
+            <div class="item-btn">
+                <a href="#Mulai">Mulai</a>
+                <a href="#More">More</a>
+            </div> 
+        </main>
+    <footer>
+        <div class="container-footer">
+            <div class="item-link">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                </ul>
+                 <ul>
+                    <li><a href="#home">Home</a></li>
+                </ul>
+                 <ul>
+                    <li><a href="#home">Home</a></li>
+                </ul>
+            </div>
+            <div class="link">
+                <span>IKYOne</span>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
